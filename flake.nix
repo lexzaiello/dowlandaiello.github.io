@@ -19,7 +19,7 @@
           buildPhase = ''
             mkdir -p themes
             ln -s ${inputs.hugo-papermod} themes/papermod
-            ${pkgs.hugo}/bin/hugo
+            ${pkgs.hugo}/bin/hugo --gc --minify
             ${pkgs.nodePackages.prettier}/bin/prettier -w public '!**/*.{js,css}'
           '';
           installPhase = "cp -r public $out";
