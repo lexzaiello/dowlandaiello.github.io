@@ -6,7 +6,6 @@ params:
   author: "Dowland Aiello"
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
-  ShowShareButtons: true
   ShowReadingTime: true
   ShowBreadCrumbs: true
   homeInfoParams:
