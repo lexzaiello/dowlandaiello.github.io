@@ -30,7 +30,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Build with Nix
-        run: nix build && cp -r $(nix build --print-out-paths) /public
+        run: nix build && sudo cp -r $(nix build --print-out-paths) /public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
