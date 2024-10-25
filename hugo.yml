@@ -1,0 +1,29 @@
+baseURL: "https://dowlandaiello.com/"
+languageCode: "en-us"
+title: "Dowland Aiello"
+theme: ["papermod"]
+params:
+  author: "Dowland Aiello"
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  homeInfoParams:
+    Title: Dowland Aiello
+    Content: Software Engineer
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/dowlandaiello"
+    - name: "email"
+      url: "mailto:dowlandaiello@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/dowland-aiello-678736160"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+

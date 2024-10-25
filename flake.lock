@@ -18,19 +18,19 @@
         "type": "github"
       }
     },
-    "hugo-blowfish": {
+    "hugo-papermod": {
       "flake": false,
       "locked": {
-        "lastModified": 1728054110,
-        "narHash": "sha256-zXhqIY6Y6PIC4jYyYbsqUx8L6P1WRWHNY1eP/SRxTC4=",
-        "owner": "nunocoracao",
-        "repo": "blowfish",
-        "rev": "f037da312028f628e59eee7ef063dfc4edd3d78c",
+        "lastModified": 1726387912,
+        "narHash": "sha256-JH2pPmY4dd9aPl0FDTSXG7zznoCOezEk3kmIlcS/UwI=",
+        "owner": "adityatelange",
+        "repo": "hugo-papermod",
+        "rev": "a2eb47bb4b805116dcd34c1605d39835121f8dbe",
         "type": "github"
       },
       "original": {
-        "owner": "nunocoracao",
-        "repo": "blowfish",
+        "owner": "adityatelange",
+        "repo": "hugo-papermod",
         "type": "github"
       }
     },
@@ -53,7 +53,7 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "hugo-blowfish": "hugo-blowfish",
+        "hugo-papermod": "hugo-papermod",
         "nixpkgs": "nixpkgs"
       }
     },

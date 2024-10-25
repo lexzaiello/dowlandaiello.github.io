@@ -3,12 +3,12 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
-    hugo-blowfish = {
-      url = "github:nunocoracao/blowfish";
+    hugo-papermod = {
+      url = "github:adityatelange/hugo-papermod";
       flake = false;
     };
   };
-  outputs = { self, nixpkgs, flake-utils, hugo-blowfish }@inputs:
+  outputs = { self, nixpkgs, flake-utils, hugo-papermod }@inputs:
     flake-utils.lib.eachDefaultSystem (system:
       let pkgs = nixpkgs.legacyPackages.${system};
       in {
@@ -18,12 +18,18 @@
           buildInputs = [ pkgs.git pkgs.hugo pkgs.nodePackages.prettier ];
           buildPhase = ''
             mkdir -p themes
-            ln -s ${inputs.hugo-blowfish} themes/hugo-blowfish
+            ln -s ${inputs.hugo-papermod} themes/papermod
             ${pkgs.hugo}/bin/hugo
             ${pkgs.nodePackages.prettier}/bin/prettier -w public '!**/*.{js,css}'
           '';
           installPhase = "cp -r public $out";
         };
-        devShell = pkgs.mkShell { buildInputs = [ pkgs.hugo ]; };
+        devShell = pkgs.mkShell {
+          buildInputs = [ pkgs.hugo ];
+          shellHook = ''
+            mkdir -p themes
+            ln -s ${inputs.hugo-papermod} themes/papermod
+          '';
+        };
       });
 }
