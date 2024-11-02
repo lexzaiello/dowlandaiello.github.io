@@ -34,7 +34,7 @@ About seven months ago, I started a new job at a cryptocurrency startup as a Rus
 
 As a member of r/unixporn, I inevitably stumbled upon NixOS. NixOS, as far as I was concerned at the time, seemed like the next level of Linux autofellatio. NixOS users, in my eyes, were superior to Arch Linux users, though I wasn't sure exactly why. After doing preliminary research, I discovered that NixOS came with myriad benefits compared to other operating systems: configuration was highly centralized in, at one extreme, a single configuration file, and the OS was highly portable and highly reproducible.
 
-As are all operating systems, NixOS is differentiated by its unique package manager: Nix. Nix, unlike other package managers, emphasizes package isolation, reproducibility, and portability of package building. Nix packages are defined by their build processes, build dependencies, and runtime dependencies, which are specified in "derivation." Derivations are written in the functional Nix language, which allows for expressive and readable code defining packages. Here is an example of a simple derivation for a website made with Jekyll:
+As are all operating systems, NixOS is differentiated by its unique package manager: Nix. Nix, unlike other package managers, emphasizes package isolation, reproducibility, and portability of package building. Nix packages are defined by their build processes, build dependencies, and runtime dependencies, which are specified in "derivations." Derivations are written in the functional Nix language, which allows for expressive and readable code defining packages. Here is an example of a simple derivation for a website made with Jekyll:
 
 ```Nix
 with import <nixpkgs> {};
