@@ -93,3 +93,5 @@ A week ago, I decided to change my ricing goals to maximize productivity. So, I 
 The whole way along creating my new rice, despite any issue I ran into, I could rest easy knowing my system would always remain intact and usable.
 
 Every day I use my computer, I fall in love with NixOS and Nix again, and if you give it a try, I think you will, too, no matter if you prefer form or function.
+
+*P.S.: This site is built and deployed with Nix ;)*
