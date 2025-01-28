@@ -1,7 +1,7 @@
 ---
 title: "Private Intermediate Representation: An Intuitive Abstraction for Compiler Implementation"
 date: 2025-01-27T15:25:19-05:00
-draft: false
+draft: true
 ---
 
 Over the last 3-4 months, I've set out on the ambitious task of designing and implementing my own programming languages. My languages implement relatively novel features and belong to a field of programming called "interaction programming" (IP). IP is a Turing-complete model of computing based on symbolic graph rewriting rules ("interaction"). Rules are defined through interaction between agents through ports. IP poses numerous advantages to other computing models due to its lack of requirements for global synchronization, enabling intuitive and massive parallelism.
