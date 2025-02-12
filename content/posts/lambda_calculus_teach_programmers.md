@@ -1,7 +1,7 @@
 ---
 title: "Thinking in Lambdas"
 date: 2024-11-06T18:55:53Z
-draft: false
+draft: true
 ---
 
 *Note: this post will likely be one in a series detailing my experience writing a lambda calculus interpreter*
