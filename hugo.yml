@@ -1,22 +1,22 @@
 baseURL: "https://dowlandaiello.com/"
 languageCode: "en-us"
-title: "Dowland Aiello"
+title: "Alexandra Aiello"
 theme: ["papermod"]
 params:
-  author: "Dowland Aiello"
+  author: "Alexandra Aiello"
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   ShowReadingTime: true
   ShowBreadCrumbs: true
   homeInfoParams:
-    Title: Dowland Aiello
+    Title: Alexandra Aiello
     Content: Software Engineer
 
   socialIcons:
     - name: "github"
-      url: "https://github.com/dowlandaiello"
+      url: "https://github.com/lexzaiello"
     - name: "email"
-      url: "mailto:dowlandaiello@gmail.com"
+      url: "mailto:lexzaiello@gmail.com"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/dowland-aiello-678736160"
 

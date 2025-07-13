@@ -22,7 +22,7 @@ I aim to eventually self-publish in further detail some of my discoveries gained
 
 ## Try it Out
 
-Available on GitHub ([dowlandaiello/ic-sandbox](https://github.com/dowlandaiello/ic-sandbox)), this project includes two important binaries:
+Available on GitHub ([lexzaiello/ic-sandbox](https://github.com/dowlandaiello/ic-sandbox)), this project includes two important binaries:
 
 - `icc`, a tool for evaluating, syntax checking, and debugging interaction combinator programs (also the underlying virtual machine for most of the repo)
 - `toyfp`, an implementation of the SK combinator calculus targeting `icc`, my interaction combinator virtual machine
