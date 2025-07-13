@@ -1,7 +1,7 @@
 baseURL: "https://lexzaiello.com/"
 languageCode: "en-us"
 title: "Alexandra Aiello"
-theme: ["papermod"]
+theme: ["terminal"]
 params:
   author: "Alexandra Aiello"
   ShowCodeCopyButtons: true

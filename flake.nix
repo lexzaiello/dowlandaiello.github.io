@@ -4,7 +4,7 @@
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     hugo-terminal = {
-      url = "github.com:panr/hugo-theme-terminal";
+      url = "github:panr/hugo-theme-terminal";
       flake = false;
     };
   };

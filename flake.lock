@@ -18,19 +18,19 @@
         "type": "github"
       }
     },
-    "hugo-papermod": {
+    "hugo-terminal": {
       "flake": false,
       "locked": {
-        "lastModified": 1726387912,
-        "narHash": "sha256-JH2pPmY4dd9aPl0FDTSXG7zznoCOezEk3kmIlcS/UwI=",
-        "owner": "adityatelange",
-        "repo": "hugo-papermod",
-        "rev": "a2eb47bb4b805116dcd34c1605d39835121f8dbe",
+        "lastModified": 1746857279,
+        "narHash": "sha256-FY6yVlelShVICpOv+6paf16lyG8Onv8K9nzjUFd2wYI=",
+        "owner": "panr",
+        "repo": "hugo-theme-terminal",
+        "rev": "5a2b4c0f1fdb9180d525930b2c8f68a90221d245",
         "type": "github"
       },
       "original": {
-        "owner": "adityatelange",
-        "repo": "hugo-papermod",
+        "owner": "panr",
+        "repo": "hugo-theme-terminal",
         "type": "github"
       }
     },
@@ -53,7 +53,7 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "hugo-papermod": "hugo-papermod",
+        "hugo-terminal": "hugo-terminal",
         "nixpkgs": "nixpkgs"
       }
     },
