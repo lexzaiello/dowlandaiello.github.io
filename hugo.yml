@@ -6,7 +6,7 @@ params:
   author: "Alexandra Aiello"
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
-  customCSS = ["css/terminal.css"]
+  CustomCss: ["css/terminal.css"]
   ShowReadingTime: true
   ShowBreadCrumbs: true
   homeInfoParams:
