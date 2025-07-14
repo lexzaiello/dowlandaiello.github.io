@@ -1,9 +1,9 @@
 baseURL: "https://lexzaiello.com/"
 languageCode: "en-us"
-title: "Alexandra Aiello"
+title: "Alexandra Zaldivar Aiello"
 theme: ["terminal"]
 params:
-  author: "Alexandra Aiello"
+  author: "Alexandra Zaldivar Aiello"
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   CustomCss: ["css/terminal.css"]
