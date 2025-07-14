@@ -19,7 +19,7 @@
           buildPhase = ''
             mkdir -p themes
             ln -s ${inputs.hugo-terminal} themes/terminal
-            ${pkgs.hugo}/bin/hugo --gc --minify
+            ${pkgs.hugo}/bin/hugo --gc --minify --environment production
             ${pkgs.nodePackages.prettier}/bin/prettier -w public '!**/*.{js,css}'
           '';
           installPhase = "cp -r public $out";
