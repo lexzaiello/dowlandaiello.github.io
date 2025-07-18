@@ -18,7 +18,7 @@ The \\(SK\\) combinator calculus is a computational system equivalent to the $\l
 
 ## Progress
 
-So far, I have formalized a working encoding of the dependent and non-dependent arrow ($\rightarrow$) derived only from $S$, $K$, $M$, and $\text{Type}$. No variables are used in the system. It is fully binderless, without relying on $\lambda$ abstraction at the expression or meta-level. I have foramlized my work in Lean thus far. I have also written an informal translation algorithm from the simply-typed $\lambda$-calculus to my $SK$ calculus.
+So far, I have formalized a working encoding of the dependent and non-dependent arrow ($\rightarrow$) derived only from $S$, $K$, $M$, and $\text{Type}$. No variables are used in the system. It is fully binderless, without relying on $\lambda$ abstraction at the expression or meta-level. I have formalized my work in Lean thus far. I have also written a translation algorithm from the simply-typed $\lambda$-calculus to my $SK$ calculus.
 
 ## Future Work
 
