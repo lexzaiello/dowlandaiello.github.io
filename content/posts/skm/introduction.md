@@ -24,4 +24,4 @@ So far, I have formalized a working encoding of the dependent and non-dependent 
 
 Using this dependent typing foundation, I hope to finish a proof of strong normalization of the calculus in Lean. Then, I aim to translate the [Calculus of Constructions](https://en.wikipedia.org/wiki/Calculus_of_constructions) to my \\(SK(M)\\) calculus in order to prove \\(SN\\) for the Calculus of Constructions by proxy. In the longer term, I hope to create a proof assistant based on \\(SK(M)\\).
 
-*To see more on this project, click [here](https://lexzaiello.com/sk-lean).*
+*To see more on this project, click [here](https://lexzaiello.com/sk-lean). The project is also available on GitHub [here](https://github.com/lexzaiello/sk-lean)*
