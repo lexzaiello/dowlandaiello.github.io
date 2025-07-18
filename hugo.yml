@@ -5,28 +5,54 @@ theme: ["terminal"]
 params:
   author: "Alexandra Zaldivar Aiello"
   contentTypeName: "posts"
-  ShowCodeCopyButtons: true
-  ShowPostNavLinks: true
-  CustomCss: ["css/terminal.css"]
+  showCodeCopyButtons: true
+  showPostNavLinks: true
+  customCss: ["css/terminal.css"]
   customHead: true
-  ShowReadingTime: true
+  showReadingTime: true
   math: true
   showMenuItems: 2
-  ShowBreadCrumbs: true
+  showBreadCrumbs: true
   homeInfoParams:
     Title: Alexandra Aiello
     Content: Computer Scientist
   fullWidthTheme: false
 
-  centerTheme: false
+  centerTheme: true
 
-  socialIcons:
-    - name: "github"
-      url: "https://github.com/lexzaiello"
-    - name: "email"
-      url: "mailto:lexzaiello@gmail.com"
-    - name: "linkedin"
-      url: "https://www.linkedin.com/in/dowland-aiello-678736160"
+  twitter:
+    creator: "lexzaiello"
+    site: "https://lexzaiello.com"
+
+languages:
+  en:
+    languageName: "English"
+    title: "Alexandra Zaldivar Aiello"
+
+    params:
+      subtitle: "Computer Scientist"
+      owner: "Alexandra Zaldivar Aiello"
+      keywords: ""
+      copyright: ""
+      menuMore: "Show more"
+      readMore: "Read more"
+      readOtherPosts: "Read other posts"
+      newerPosts: "Newer posts"
+      olderPosts: "Older posts"
+      missingContentMessage: "Page not found..."
+      missingBackButtonLabel: "Back to home page"
+      minuteReadingTime: "min read"
+      words: "words"
+
+      logo:
+        logoText: "Alexandra Zaldivar Aiello"
+        logoHomeLink: "/"
+
+      menu:
+        main:
+          identifier: "about"
+          name: "About"
+          url: "/about"
 
 outputs:
   home:
