@@ -12,7 +12,7 @@ description = "In this post, I outline a proposed dependent type theory for the 
 
 # Dependently-Typed SK is Possible
 
-*To see more on this project, click [here](https://lexzaiello.com/sk-lean).*
+*To see more on this project, click [here](https://lexzaiello.com/sk-lean). The project is also available on GitHub [here](https://github.com/lexzaiello/sk-lean).*
 
 The \\(SK\\) combinator calculus is a computational system equivalent to the $\lambda$ calculus. Dependent type theories are systems which add type information to a program such that types can "depend" on terms. That is, the execution of the program can create new types. As of yet, adding dependent typing to the SK calculus was thought impossible due to its lack of variables. By adding one combinator, the $M$ combinator which does dynamic reflection, I have successfully created the first dependently-typed $SK$ calculus.
 
@@ -24,4 +24,4 @@ So far, I have formalized a working encoding of the dependent and non-dependent 
 
 Using this dependent typing foundation, I hope to finish a proof of strong normalization of the calculus in Lean. Then, I aim to translate the [Calculus of Constructions](https://en.wikipedia.org/wiki/Calculus_of_constructions) to my \\(SK(M)\\) calculus in order to prove \\(SN\\) for the Calculus of Constructions by proxy. In the longer term, I hope to create a proof assistant based on \\(SK(M)\\).
 
-*To see more on this project, click [here](https://lexzaiello.com/sk-lean). The project is also available on GitHub [here](https://github.com/lexzaiello/sk-lean)*
+*To see more on this project, click [here](https://lexzaiello.com/sk-lean). The project is also available on GitHub [here](https://github.com/lexzaiello/sk-lean).*
