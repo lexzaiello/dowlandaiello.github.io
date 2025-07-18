@@ -12,7 +12,7 @@ params:
   ShowBreadCrumbs: true
   homeInfoParams:
     Title: Alexandra Aiello
-    Content: Software Engineer
+    Content: Computer Scientist
 
   socialIcons:
     - name: "github"

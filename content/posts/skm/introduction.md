@@ -17,7 +17,7 @@ hideComments = false
 
 *To see more on this project, click [here](https://lexzaiello.com/sk-lean).*
 
-The $SK$ combinator calculus is a computational system equivalent to the $\lambda$ calculus. Dependent type theories are systems which add type information to a program such that types can "depend" on terms. That is, the execution of the program can create new types. As of yet, adding dependent typing to the SK calculus was thought impossible. I, however, have done it. By adding one combinator, the $M$ combinator which does dynamic reflection, I have successfully created the first dependently-typed $SK$ calculus.
+The \(SK\) combinator calculus is a computational system equivalent to the $\lambda$ calculus. Dependent type theories are systems which add type information to a program such that types can "depend" on terms. That is, the execution of the program can create new types. As of yet, adding dependent typing to the SK calculus was thought impossible. I, however, have done it. By adding one combinator, the $M$ combinator which does dynamic reflection, I have successfully created the first dependently-typed $SK$ calculus.
 
 ## Progress
 
