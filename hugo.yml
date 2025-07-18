@@ -1,18 +1,24 @@
-baseURL: "https://lexzaiello.com/"
+baseURL: "/"
 languageCode: "en-us"
 title: "Alexandra Zaldivar Aiello"
 theme: ["terminal"]
 params:
   author: "Alexandra Zaldivar Aiello"
+  contentTypeName: "posts"
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   CustomCss: ["css/terminal.css"]
   customHead: true
   ShowReadingTime: true
+  math: true
+  showMenuItems: 2
   ShowBreadCrumbs: true
   homeInfoParams:
     Title: Alexandra Aiello
     Content: Computer Scientist
+  fullWidthTheme: false
+
+  centerTheme: false
 
   socialIcons:
     - name: "github"
@@ -30,17 +36,20 @@ outputs:
 
 markup:
   goldmark:
+    renderer:
+      unsafe: true
     extensions:
       passthrough:
         delimiters:
           block:
-          - - \[
-            - \]
-          - - $$
-            - $$
+            - ["\\[", "\\]"]
+            - ["$$", "$$"]
           inline:
-          - - \(
-            - \)
+            - ["\\(", "\\)"]
         enable: true
-params:
-  math: true
+
+languageCode: "en-us"
+# Add it only if you keep the theme in the `themes` directory.
+# Remove it if you use the theme as a remote Hugo Module.
+theme: "terminal"
+pagination.pagerSize: 5
